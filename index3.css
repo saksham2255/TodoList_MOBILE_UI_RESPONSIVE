@@ -106,3 +106,29 @@
     top: 40px;
     right: 100px;
 }
+
+@media(max-width:600px){
+
+    .line-1{
+        display: none;
+    }
+    .line-2{
+        display: none;
+    }
+    .back{
+        display: none;
+    }
+
+    .trip-to-paris{
+        position: absolute;
+        left: 8%;
+        font-size: 2.7rem;
+        /* background-color: #EB4747; */
+    }
+
+    .circle-back{
+        top: 2%;
+        left: 3%;
+    }
+
+}
