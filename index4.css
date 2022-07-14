@@ -155,3 +155,74 @@
    left: 145px;
    cursor: pointer;
 }
+
+@media(max-width:600px){
+
+    .line-1{
+        display: none;
+    }
+    .line-2{
+        display: none;
+    }
+    .back{
+        display: none;
+    }
+
+    .trip-to-paris{
+        position: absolute;
+        left: 8%;
+        font-size: 2.7rem;
+        /* background-color: #EB4747; */
+    }
+
+    .circle-back{
+        top: 2%;
+        left: 3%;
+    }
+
+    .card-1{
+        width: 80%;
+        position: absolute;
+        top: 75%;
+        left: 10%;
+    }
+
+    .div1{
+        font-size: 1.7rem;
+        width: 72%;
+        height: 10%;
+    }
+
+    .div2{
+        font-size: 1.4rem;
+        top: 28%;
+        left: 11%;
+    }
+
+    .div3{
+        font-size: 1.4rem;
+        top: 40%;
+        left: 15%;
+    }
+
+    .circle-plus{
+        top: 88%;
+        left: 83%;
+    }
+
+    .pop-up{
+        height: 25%;
+        width: 80%;
+        left: 9.5%;
+    }
+
+    .pop-up-button{
+        left: 37%;
+    }
+    
+    #pop-upbar{
+        left: 22%;
+    }
+
+
+}

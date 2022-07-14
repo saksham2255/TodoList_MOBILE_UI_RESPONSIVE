@@ -131,4 +131,34 @@
         left: 3%;
     }
 
+    .card-1{
+        width: 80%;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+
+    .div1{
+        font-size: 1.7rem;
+        width: 72%;
+        height: 10%;
+    }
+
+    .div2{
+        font-size: 1.4rem;
+        top: 28%;
+        left: 11%;
+    }
+
+    .div3{
+        font-size: 1.4rem;
+        top: 40%;
+        left: 15%;
+    }
+
+    .circle-plus{
+        top: 88%;
+        left: 83%;
+    }
+
 }
