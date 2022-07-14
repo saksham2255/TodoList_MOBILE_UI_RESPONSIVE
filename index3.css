@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    height: 150px;
+    width: 1000px;
+    margin: 80px auto;
+    position: relative;
+}
+
+
+.trip-to-paris{
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.back{
+    position: absolute;
+    top: 120px;
+    left: 480px;
+    font-size: 2rem;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.circle-back{
+    opacity: 0.8;
+    position: absolute;
+    top: 120px;
+    left: 430px;
+}
+
+.card-1{
+    height:60vh;
+    width: 380px;
+    border: 2px solid #EB4747;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    margin-bottom: 50px;
+}
+
+.div1{
+    text-align: left;
+    color: #EB4747;
+    font-size: 2rem;
+    width: 67%;
+    height: 15%;
+    border-bottom:1px solid grey;
+    position: absolute;
+    top: 35px;
+    right:0px;
+}
+
+.div2{
+    height: 15%;
+    width: 85%;
+    color: #EB4747;;
+    position: absolute;
+    top: 20vh;
+    left: 7.4vh;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: line-through;
+}
+
+.div3{
+    height: 15%;
+    width: 85%;
+    position: absolute;
+    top:27.5vh ;
+    left: 14vh;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+#check{
+    width: 17px;
+    height: 17px;
+}
+
+.circle-plus{
+    opacity: 0.8;
+    position: absolute;
+    top: 52vh;
+    left: 50vh;
+}
+
+.line-1{
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+.line-2{
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}

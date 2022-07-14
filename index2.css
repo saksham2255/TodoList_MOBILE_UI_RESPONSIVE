@@ -1,0 +1,177 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    width:50%;
+    height: 10%;
+    margin: 80px auto;
+    position: relative;
+}
+
+.upper-container-1{
+    width: 35%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.tasks{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.lists{
+    font-size: 3rem;
+    opacity: 0.5;
+}
+
+.upper-container-2{
+    width: 35%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.addlist{
+    position: absolute;
+    font-size: 2rem;
+    opacity: 0.5;
+    right: 5%;
+    top: 28%;
+}
+
+.circle{
+    position: absolute;
+    top: 23%;
+    right: 23%;
+    padding-right: 8px;
+    opacity: 0.8;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 700px;
+    margin: auto;
+}
+
+.card-1{
+    height:45vh;
+    width: 200px;
+    border: 2px solid #EB4747;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.card-2{
+    height:45vh;
+    width: 200px;
+    border: 2px solid #EB4747;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.card-3{
+    height:45vh;
+    width: 200px;
+    border: 2px solid #EB4747;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.div1{
+    text-align: left;
+    color: #EB4747;
+    font-size: 1.5rem;
+    width: 85%;
+    height: 15%;
+    border-bottom:1px solid grey;
+    position: absolute;
+    top: 25px;
+    right:0px;
+}
+
+.div2{
+    height: 15%;
+    width: 85%;
+    color: red;
+    position: absolute;
+    top: 15vh;
+    left: 4.8vh;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.div3{
+    height: 15%;
+    width: 85%;
+    position: absolute;
+    top:21.5vh ;
+    left: 2vh;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+#check{
+    width: 17px;
+    height: 17px;
+}
+
+.not-show{
+    filter: blur(5px);
+    -webkit-filter: blur(5px) ;
+}
+
+.pop-up{
+    position: absolute;
+    height: 28vh;
+    width: 27%;
+    border: 1px solid #EB4747;
+    border-radius: 10px;
+    top: 37%;
+    left: 37%;
+    background-color: white;
+    box-shadow: 3px 3px 10px grey;
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.add-new{
+    text-align: center;
+    color: #EB4747;
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
+#pop-upbar{
+    padding: auto;
+    border-radius: 4px;
+    border: 2px solid #EB4747;
+    width: 60%;
+    position: absolute;
+    top: 65px;
+    left: 73px;
+}
+
+.pop-up-button{
+    background-color: #EB4747;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid #EB4747;
+    width: 80px;
+    height: 35px;
+   position: absolute;
+   top: 120px;
+   left: 145px;
+   cursor: pointer;
+}
